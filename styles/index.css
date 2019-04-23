@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(221, 219, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    width: 400px;
+    height: 180px;
+    margin-left: 33%;
+}
+
+header h2 {
+    margin-left: 30%;
+    margin-top: -3%;
+    color: rgb(84, 148, 221);
+}
+
+header{
+    background-color: white;
+}
+
+.corpo {
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 30%;
+}
+
+body h1 {
+    margin-top: 4%;
+}
+
+.imagens{
+    margin-top: -20%;
+    text-align: right;
+}
+
+.img{
+    margin-right: 2.5px;
+    border-radius: 8px;
+}

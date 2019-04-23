@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TI- Unigranrio</title>
+</head>
+
+<header>
+    <img id="logo" src="./imgs/unigranrio-logo.png" alt="Logo Universidade Unigranrio">
+    <h2>Tecnologia da Informação é na Unigranrio!</h2>
+    <hr>
+</header>
+<nav id="menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="curso.html">Cursos</a></li>
+        <li><a href="corpodocente.html">Corpo Docente</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="https://extra.globo.com/noticias/rio/alunos-da-unigranrio-de-duque-de-caxias-criam-aplicativos-buscam-parceria-22977901.html">Notícias</a></li>
+    </ul>
+</nav>
+
+<body>
+
+    <section id="cursos">
+        <h2>Lista de cursos:</h2>
+        <select id="select" onchange="myFunction();">
+            <option id="bsi" value="bsi" selected>Bacharelado em Sistemas de Informação</option>
+            <option id="tads" value="tads">Tecnologia em Análise e Desenvolvimento de Sistemas</option>
+            <option id="trc" value="trc">Tecnologia em Redes de Computadores</option>
+            <option id="tsi" value="tsi">Tecnologia em Sistemas para Internet</option>
+        </select>
+
+    </section>
+
+    <div id="info">
+        <p>
+            O Bacharelado em Sistemas de Informação forma analistas de sistemas para atender às crescentes demandas do
+            mercado corporativo, exercendo atividades profissionais que vão desde o projeto, instalação e administração
+            dos recursos de infraestrutura computacional, até o desenvolvimento, implementação e implantação de
+            sistemas corporativos, incluindo o projeto e administração de redes de computadores e de banco de dados
+            distribuídos.
+
+            O curso é composto por disciplinas que abrangem as seguintes áreas da computação: Engenharia de Software,
+            Programação, Bancos de Dados, Redes de Computadores e Sistemas Operacionais & Hardware. Além da forte base
+            tecnológica ministrada no curso, o Bacharelado em Sistemas de Informação está estruturado de forma a
+            capacitar seus discentes a utilizarem a Tecnologia de Informação para a solução de problemas de gestão
+            empresarial, promovendo o uso da computação para a coordenação e otimização dos processos organizacionais.
+            O mercado de trabalho para o profissional é amplo.
+        </p>
+    </div>
+
+    <div class="imgs-curso">
+        <img class="img" src="./imgs/unidade-macae-9.jpg" alt="Imagem da intituição">
+        <img class="img" src="./imgs/download.jpg" alt="Imagem da intituição">
+    </div>
+
+    
+    <div class="imgs-curso-inferior">
+        <img class="img" src="./imgs/001.jpg" alt="Imagem da intituição">
+        <img id="img-4" class="img" src="./imgs/000.jpg" alt="Imagem da intituição">
+    </div>
+
+
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/curso.css">
+    <script src="./scripts/curso.js"></script>
+</body>
+
+</html>

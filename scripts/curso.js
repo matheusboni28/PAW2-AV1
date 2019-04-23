@@ -1,0 +1,22 @@
+function myFunction() {
+    var valor = document.getElementById('select').value;
+
+    if (valor == "tads") {
+        document.getElementById("info").innerHTML = "O profissional egresso do curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas está apto a analisar, projetar, documentar, especificar, testar, implantar e manter sistemas computacionais de informação. Trabalhar com ferramentas computacionais, equipamentos de informática e metodologia de projetos na produção de sistemas. Empregar raciocínio lógico e ter capacidade de abstração no uso de linguagens de programação e de metodologias de construção de projetos, preocupação com a qualidade, usabilidade, robustez, integridade e segurança de programas. Avaliar os impactos das tecnologias da informação e comunicação na sociedade, tendo a preocupação de incitar a reflexão crítica sobre os aspectos éticos. Trabalhar em equipe de forma proativa, utilizando uma comunicação eficaz, enfrentando os desafios com flexibilidade e atitude empreendedora, identificando oportunidades no uso de novas tecnologias e propondo soluções inovadoras. Desempenhar o papel de agente transformador na sociedade, através do emprego ético da tecnologia da informação e da melhoria dos processos decisórios e operacionais das organizações.";
+    }
+
+    else if (valor == "bsi") {
+        document.getElementById("info").innerHTML = "O Bacharelado em Sistemas de Informação forma analistas de sistemas para atender às crescentes demandas do mercado corporativo, exercendo atividades profissionais que vão desde o projeto, instalação e administraçãodos recursos de infraestrutura computacional, até o desenvolvimento, implementação e implantação desistemas corporativos, incluindo o projeto e administração de redes de computadores e de banco de dadosdistribuídos.O curso é composto por disciplinas que abrangem as seguintes áreas da computação: Engenharia de Software,Programação, Bancos de Dados, Redes de Computadores e Sistemas Operacionais & Hardware. Além da forte basetecnológica ministrada no curso, o Bacharelado em Sistemas de Informação está estruturado de forma acapacitar seus discentes a utilizarem a Tecnologia de Informação para a solução de problemas de gestãoempresarial, promovendo o uso da computação para a coordenação e otimização dos processos organizacionais. O mercado de trabalho para o profissional é amplo.";
+    }
+
+    else if (valor == "trc") {
+        document.getElementById("info").innerHTML = "O Tecnólogo em Redes de Computadores é o profissional que elabora, implanta, gerencia e mantém projetos lógicos e físicos de redes de computadores locais e de longa distância. Elabora diagnóstico e resolve problemas ligados à falta de conectividade entre sistemas heterogêneos, comunicação de dados e segurança de redes de computadores. Avalia desempenho e configura serviços de rede e de sistema de comunicação de dados. O egresso em Redes de Computadores da Unigranrio estará apto a desempenhar as funções de projetista, analista, administrador ou gerente em Redes de Computadores como colaborador, consultor técnico ou empreendedor.";
+
+    }
+
+    else if (valor == "tsi") {
+        alert('AINDA SEM DESCRIÇÃO PARA ESTE CURSO!');
+        document.getElementById("info").innerHTML = "O profissional egresso do curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas está apto a analisar, projetar, documentar, especificar, testar, implantar e manter sistemas computacionais de informação. Trabalhar com ferramentas computacionais, equipamentos de informática e metodologia de projetos na produção de sistemas. Empregar raciocínio lógico e ter capacidade de abstração no uso de linguagens de programação e de metodologias de construção de projetos, preocupação com a qualidade, usabilidade, robustez, integridade e segurança de programas. Avaliar os impactos das tecnologias da informação e comunicação na sociedade, tendo a preocupação de incitar a reflexão crítica sobre os aspectos éticos. Trabalhar em equipe de forma proativa, utilizando uma comunicação eficaz, enfrentando os desafios com flexibilidade e atitude empreendedora, identificando oportunidades no uso de novas tecnologias e propondo soluções inovadoras. Desempenhar o papel de agente transformador na sociedade, através do emprego ético da tecnologia da informação e da melhoria dos processos decisórios e operacionais das organizações.";
+    }
+
+}

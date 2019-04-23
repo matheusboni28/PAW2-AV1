@@ -1,0 +1,22 @@
+.corpo-docente{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.docente{
+    margin-bottom: 7px;
+}
+
+body a{
+    color: red;
+}
+
+#more{
+    display: none;
+    text-align: center;
+    margin-top: 7%;
+}
+
+#btn{
+    margin-left: 44%;
+}
